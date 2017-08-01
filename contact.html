@@ -1,67 +1,53 @@
 <!DOCTYPE html>
-<html lang="en-us">
 <html>
-
 <head>
 	<meta charset="UTF-8"> 
 	<title>Robert Castiblanco Contact</title>
 	<link rel="shortcut icon" href="title icon.ico"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<link href="assets/css/reset.css" type="text/css"  rel="stylesheet">
 	<link href="stylec.css" type="text/css"  rel="stylesheet">
+	<link name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, minimum-scale=1.0, minimum-scale=1.0">
 </head>
-
-
 <body>
-	
+<div class="container">
 	<header class="header1">
-		<div class="header2">
-				<div class="logo">Robert Castiblanco</div>
-				<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
+		<div class="logo">Robert Castiblanco</div>
+		<nav>
+			<a href="index.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
+		</nav>
 	</header>
 
-<br><br><br><br><br><br><br>
+<section class="main">
+	<form action="/action_page.php">
+	    <label for="fname">First Name</label>
+	    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+	    <label for="lname">Last Name</label>
+	    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-<div class="container">
-  <form action="/action_page.php">
+	    <label for="subject">Subject</label>
+	    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	    <input type="submit" value="Submit">
+  	</form>
+</section>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>	
-
-
-<div class="contact">
-	<div class="contactme">Contact with Me</div>
+<aside class="contact">
+	<h3>Contact with Me</h3>
 	<div class="contactimages">
 		<a href="https://github.com/ccrs2006" target="_blank"><img src="assets/images/if_github_253591.png" alt="Github" style="width:70px;height:70px;"></a>
 		<a href="https://www.linkedin.com/in/robert-s-castiblanco/" target="_blank"><img src="assets/images/if_linkedin_986950.png" alt="Linkedin" style="width:70px;height:70px;"></a> 
 		<a href="https://stackoverflow.com/users/story/8238607#" target="_blank"><img src="assets/images/if_overflow_395367.png" alt="Overflow" style="width:70px;height:70px;"></a>
 	</div>	
-</div>
+</aside>
 
-
-<div  class="footer">
-	<footer>
-		<h3>©copyright 2017 Robert Castiblanco</h3>
+	<footer class="footer">
+		<h4>©copyright 2017 Robert Castiblanco</h4>
 	</footer>
 </div>
+
 
 </body>
 </html>
